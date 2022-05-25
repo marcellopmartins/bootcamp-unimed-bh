@@ -3,7 +3,7 @@
 Projeto realizado na Digital Innovation One para solidificação dos conhecimentos em Flexbox.
 
 <p align="center">
-  <img alt="#Recriando o login do Instagram" src=".github/Sobre-Instagram.png" width="40%">
+  <img alt="#Recriando o login do Instagram" src=".github/Sobre-Instagram.png" width="60%">
 </p>
 
 ## 🚀 Tecnologias
