@@ -1,4 +1,4 @@
-DIO Instagram
+# DIO Instagram
 
 Projeto realizado na Digital Innovation One para solidificação dos conhecimentos em Flexbox.
 
