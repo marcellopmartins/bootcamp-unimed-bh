@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viEEEEport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Flex</title>
+    <style>
+        .flex-container{
+            display: flex;
+            border: 1px solid  black;
+            max-width: 400px;
+            margin-bottom: 10px;
+        }
+        .item{
+            background-color: coral;
+            color: white;
+            text-align: center;
+            margin: 5px;
+        }
+        .flex-1{
+            flex: 1;
+            /* Grow = 1, shink = 1, basis = 0 */
+        }
+        .flex-2{
+            flex: 2;
+            /* Grow = 2, shink = 1, basis = 0 */
+        }
+        .largura{
+            width: 200px;
+           /* min-width: 150px;*/
+        }
+    </style>
+</head>
+<body>
+    <p>Flex-1</p>
+    <div class="flex-container">
+        <div class="item flex-1">A</div>
+        <div class="item flex-1">B</div>
+        <div class="item flex-1">CC</div>
+        <div class="item flex-1">DDDD</div>
+        <div class="item flex-1">EEEE</div>
+
+    </div>
+    <p>Flex-mix</p>
+    <div class="flex-container">
+        <div class="item flex-1">A</div>
+        <div class="item flex-1">B</div>
+        <div class="item flex-1">CC</div>
+        <div class="item flex-1">DDDD</div>
+        <div class="item flex-1">EEEE</div>
+
+    </div>
+    <p>Widht Ignorado</p>
+    <div class="flex-container">
+        <div class="item flex-1 largura">A</div>
+        <div class="item flex-1 largura">B</div>
+        <div class="item flex-1 largura">CC</div>
+        <div class="item flex-1 largura">DDDD</div>
+        <div class="item flex-1 largura">EEEE</div>
+
+    </div>
+    
+</body>
+</html>
